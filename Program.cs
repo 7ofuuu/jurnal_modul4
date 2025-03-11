@@ -27,3 +27,19 @@ foreach (KodeProduk kodeProduk in listKodeProduk)
         Console.WriteLine(kodeProduk.produkElektronik + "\t\t\t" + kodeProduk.getKodeProduk());
     }
 }
+
+Console.WriteLine("\n");
+
+FanLaptop fanLaptop = new FanLaptop();
+
+fanLaptop.kecepatanFan();
+fanLaptop.turboShortcut();
+fanLaptop.kecepatanFan();
+fanLaptop.turboShortcut();
+fanLaptop.kecepatanFan();
+fanLaptop.kecepatanUp();
+fanLaptop.kecepatanFan();
+fanLaptop.kecepatanUp();
+fanLaptop.kecepatanFan();
+fanLaptop.kecepatanDown();
+fanLaptop.kecepatanFan();
